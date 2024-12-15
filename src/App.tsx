@@ -1,6 +1,6 @@
 
-import type { Schema } from "../amplify/data/resource";
-import { generateClient } from "aws-amplify/data";
+// import type { Schema } from "../amplify/data/resource";
+// import { generateClient } from "aws-amplify/data";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css'
 import NavBar from "./partials/NavBar";
@@ -8,7 +8,7 @@ import { ShopContextProvider } from "./context/ShopContext";
 import Home from "./views/home/Home";
 import Cart from "./views/cart/Cart";
 
-const client = generateClient<Schema>();
+
 
 function App() {
   return (
