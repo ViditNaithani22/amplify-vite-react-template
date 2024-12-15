@@ -1,0 +1,85 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    /* Add some padding for spacing */
+}
+
+.cartItem {
+    width: 90%;
+    /* Use a percentage to make it responsive */
+    max-width: 700px;
+    /* Set a maximum width for larger screens */
+    height: auto;
+    /* Allow height to adjust automatically */
+    display: flex;
+    flex-direction: column;
+    /* Stack items vertically for smaller screens */
+    align-items: center;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin: 20px;
+    /* Reduce margin for better spacing on mobile */
+    overflow: hidden;
+    /* Ensure no content spills out */
+}
+
+.cartItem img {
+    width: 100%;
+    /* Image takes full width of its container */
+    max-width: 200px;
+    /* Limit image width */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.cartItem .description {
+    width: 100%;
+    /* Full width inside the cart item */
+    text-align: center;
+    padding: 10px;
+    /* Add some padding for spacing */
+}
+
+@media (min-width: 600px) {
+    .cartItem {
+        flex-direction: row;
+        /* Row layout for larger screens */
+        height: 250px;
+        /* Restore fixed height */
+    }
+
+    .cartItem img {
+        width: 200px;
+        height: 250px;
+    }
+
+    .cartItem .description {
+        width: 70%;
+        text-align: left;
+    }
+}
+
+.countHandler input {
+    width: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.checkout button {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.checkout p {
+    font-size: 20px;
+    font-weight: bold;
+}

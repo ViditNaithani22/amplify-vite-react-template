@@ -1,0 +1,89 @@
+.shopTitle {
+    text-align: center;
+}
+
+.products {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    /* Responsive grid */
+    gap: 20px;
+    /* Adds consistent spacing between products */
+    place-items: center;
+    margin-bottom: 30px;
+    padding: 0 20px;
+    /* Optional: Adds padding to the grid container */
+}
+
+.product {
+    width: 300px;
+    /* Ensures consistent width */
+    height: auto;
+    /* Adjust height automatically */
+    background-color: #f9f9f9;
+    /* Optional: Add a background for visibility */
+    border: 1px solid #ddd;
+    /* Optional: Border for better design */
+    border-radius: 8px;
+    /* Optional: Smooth corners */
+    padding: 16px;
+    /* Consistent padding inside each product */
+    margin: 0;
+    /* Margin handled by the grid gap */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* Optional: Add a shadow for aesthetics */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* Center text inside the product */
+}
+
+.product img {
+    width: 100%;
+    /* Make the image fully utilize the product's width */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 8px;
+    /* Optional: Match the product's border-radius */
+}
+
+.description {
+    margin-top: 12px;
+    /* Adds spacing between image and description */
+}
+
+.description p {
+    margin: 4px 0;
+    /* Space between paragraphs */
+}
+
+.description a {
+    color: #007bff;
+    /* Optional: Make the link more visible */
+    text-decoration: none;
+}
+
+.description a:hover {
+    text-decoration: underline;
+}
+
+.addToCart {
+    background-color: transparent;
+    border: 2px solid rgb(19, 19, 19);
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+}
+
+.addToCart:hover {
+    background-color: black;
+    color: white;
+    /* Optional: Change text color for contrast */
+    cursor: pointer;
+    /* Optional: Show pointer on hover */
+}
