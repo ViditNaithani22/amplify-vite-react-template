@@ -1,16 +1,20 @@
-## AWS Amplify React+Vite Starter Template
-
-This repository provides a starter template for creating applications using React+Vite and AWS Amplify, emphasizing easy setup for authentication, API, and database capabilities.
 
 ## Overview
+- A React e-commerce web application to sell planter pots.
+- This project effectively displays the use of state, passing it from parent to child as props, and using context api to provide state to multiple children all at once
+- Used react-router-dom to create routes for different components.
+- Vite was used to set up the project
 
-This template equips you with a foundational React application integrated with AWS Amplify, streamlined for scalability and performance. It is ideal for developers looking to jumpstart their project with pre-configured AWS services like Cognito, AppSync, and DynamoDB.
+## Dependencies to install
+- phosphor-react
+- @aws-amplify/ui-react
+- aws-amplify
+- react-router-dom
 
 ## Features
-
+- **Hosting**: AWS Amplify Gen 2
 - **Authentication**: Setup with Amazon Cognito for secure user authentication.
-- **API**: Ready-to-use GraphQL endpoint with AWS AppSync.
-- **Database**: Real-time database powered by Amazon DynamoDB.
+
 
 ## Deploying to AWS
 
