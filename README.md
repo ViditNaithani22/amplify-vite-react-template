@@ -4,6 +4,7 @@
 - This project effectively displays the use of state, passing it from parent to child as props, and using context api to provide state to multiple children all at once
 - Used react-router-dom to create routes for different components.
 - Vite was used to set up the project
+- Website link: https://main.d1dtpis7gcvsz7.amplifyapp.com/
 
 ## Dependencies to install
 - phosphor-react
